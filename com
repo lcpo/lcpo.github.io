@@ -32,7 +32,7 @@ update:
 	else 
 	git commit -a -m "$message"
 	fi
-	git push origin master
+	git push -f origin master
 goto end
 
 end:
